@@ -1,0 +1,28 @@
+There was once a time in a universe far far away that we used to have a CMS ToDo list,
+but all was lost to the traveler once the dragon came to be on a dark stormy night.
+That and everyone forgot their password, so hue hue.
+
+1. IMPORTANT
+2. MAJOR
+3. MEDIUM
+4. LOW
+
+[CORE]
+-Add language module for multiple language support and to translate error messages. [4]
+//-Add global setting thingy. [2] - Not what I originally had in mind, but it works and it's simple.
+-Rewrite the config system [2] - Just convert a INI file with the settings to PHP and save it, do some simple CRC checks to see if the file changed or not.
+
+[LIBS]
+//-Add email lib. [3] - I would like to code my own, but I have no idea where to even start and I'm extremely lazy.
+
+[MODULES]
+-Write Katarina template engine. [4] - Isn't really needed now-a-days, but it'd still be cool to code.
+//-Rewrite Invitation class. [3] - Not super important, but might be needed if we ever get to the stage of private testing of our games.
+//-Rewrite token system.
+
+[USER]
+//-Add email verification for users. [2] - Almost done, token system and verification function in place, just need email and link forming.
+//-Add reset password (generate random password) [2] - Almost done, just need email up and running.
+//-Rewrite User, Register, and Login classes. [1] - Chances are I'll probably get bored and recode it for the 400th time...
+//-Finish Getekeeper. [1] - I should have had this done monthes ago, but atlas I'm finally getting around to it...
+-Finish up 2 factor authenication. [1]
